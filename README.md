@@ -1,1 +1,1 @@
-# Waffle-Cats-Website
+# WaffleCats
