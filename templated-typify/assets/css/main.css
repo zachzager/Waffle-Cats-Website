@@ -2353,7 +2353,9 @@
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			text-align: left;
+			font-weight: 500;
+			/*margin: 0 0 1em 0;*/
 		}
 
 	ul {
