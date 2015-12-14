@@ -3517,6 +3517,11 @@
 		text-align: center;
 	}
 
+		#banner img{
+	    	width: 75%;
+	    	height: auto;
+		}
+
 		#banner input, #banner select, #banner textarea {
 			color: #ffffff;
 		}
