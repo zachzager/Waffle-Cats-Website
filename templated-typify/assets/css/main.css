@@ -2534,6 +2534,10 @@
 		margin-bottom: 1em;
 	}
 
+		header img {
+			padding-bottom: 25px;
+		}
+
 		header p {
 			position: relative;
 			margin: 0 0 1.5em 0;
