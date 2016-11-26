@@ -1,78 +1,27 @@
-<!--index.html-->
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="templated-typify/assets/css/main.css">
-		<title>Waffle Cats</title>
-	</head>
-	<body>
-		<section id="banner">
-			<a href="index.html"><img src="images/wafflecatstemplogo.png" alt="Waffle Cats Logo"></a>
-			<h3><strong><a href="index.html">Home</a></strong> | <a href="Waffle Cats.zip">Download Waffle Cats</a> | <a href="screenshots.html">Screenshots</a> | <a href="team.html">About Team ShooterBlaster</a></h3>
-		</section>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | com.Company.ProductName</title>
+    <style>
+    /* a style sheet needs to be present for cursor hiding and custom cursors to work. */
+    </style>
+  </head>
+  <body>
+    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="648px" width="1152px"></canvas>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/WC_webgl_build_14.data",
+    codeUrl: "Release/WC_webgl_build_14.js",
+    memUrl: "Release/WC_webgl_build_14.mem",
+    
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
 
-		<!-- Contents -->
-		<section id="one" class="wrapper special">
-			<div class="inner">
-				<header class="major">
-					<h2>Waffle Cats is a multiplayer game in which players compete to eat...waffles. The first player to collect ten waffles wins!</h2>
-				</header>
-				<div class="features">
-					<!-- Download Waffle Cats -->
-					<div class="feature">
-						<i class="fa fa-save"></i>
-						<h2>Download Waffle Cats</h2>
-						<p>Click <strong><a href="Waffle Cats.zip">here</a></strong> to download for <strong>Mac OS X</strong>.</p>
-						<p>Click <strong><a href="Waffle Cats for Windows.zip">here</a></strong> to download for <strong>Windows</strong>.</p>
-						<p>iOS and Android versions coming soon!</p>
-						<p>Click <a href="Waffle Cats README.docx">here</a> to download the README.</p>
-						<p>Click <a href="https://github.com/zachzager/WaffleCat_game/tree/main_game">here</a> to view the code on GitHub.</p>
-					</div>
-					<!-- Features -->
-					<div class="feature">
-						<i class="fa fa-copy"></i>
-						<h2>Features</h2>
-						<ol>
-							<li>Eight playable cats</li>
-							<li>Three different stages</li>
-							<li>Local AND network multiplayer (coming soon)</li>
-							<li>Beautiful art</li>
-							<li>Catchy music</li>
-						</ol>
-					</div>
-					<!-- The Inpsiration -->
-					<div class="feature">
-						<i class="fa fa-diamond"></i>
-						<h2>The Inspiration</h2>
-						<p>While we've been influenced by one button games like Flappy Bird and Tiny Wings, <a href="http://www.addictinggames.com/action-games/cheese-dash-ninja-game.jsp">Cheese Dash Ninja</a> is our biggest source of inspiration. <a href="http://www.addictinggames.com/">Addictinggames.com</a> cites <a href="http://www.mostfungames.com/maksim-eliseenko.htm">Maksim Eliseenko</a> as the developer, though his website does not corroborate this. We were inspired by the basic one-button controls and the bouncing mechanic.</p>
-					</div>
-					<!-- About Team Shooter Blaster -->
-					<div class="feature">
-						<i class="fa fa-fire-extinguisher"></i>
-						<h2>About Team ShooterBlaster</h2>
-						<p><a href="team.html">Click here for team bios and past projects</a></p>
-					</div>
-					<!-- Special Thanks! -->
-					<div class="feature">
-						<i class="fa fa-heart"></i>
-						<h2>Special Thanks!</h2>
-						<dl>
-							<dt>Thanks to <a href="http://www.hercampus.com/school/tufts/campus-cutie-grant-steinhauer">Grant Steinhauer</a> for producing the game's music.</dt>
-							<dt>Thanks to YouTube for being an invaluable resource.</dt>
-						</dt>
-					</div>
-				</div>
-
-			<section id="two" class="wrapper style2 special">
-				<div class="inner narrow">
-					<header>
-						<h2>Get in touch!</h2>
-					</header>
-					<h2><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#122;&#97;&#99;&#104;&#122;&#97;&#103;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Click here to send us an email</a></h2>
-				</div>
-			</section>
-
-	</body>
+  </body>
 </html>
